@@ -36,6 +36,14 @@ class Database
         }
     }
 
+    public function testDB(){
+
+    }
+
+    public function hello(){
+
+    }
+
     public function deleteRow($sql)
     {
        return $this->connection->query($sql);
