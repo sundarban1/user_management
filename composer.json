@@ -1,0 +1,17 @@
+{
+    "name": "sundarban/project",
+    "autoload": {
+        "psr-4": {
+            "Sundarban\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sundarban",
+            "email": "sundar.ban@bigtincan.com"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    }
+}
