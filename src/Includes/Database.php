@@ -43,6 +43,7 @@ class Database
 
     public function updateRow($sql)
     {
+        // echo extratech;
         $sql = "Delete from users where id = 1";
         $this->connection->query($sql);
     }
