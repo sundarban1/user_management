@@ -1,11 +1,15 @@
 <?php echo $msg ?? ''; ?>
 
-<form method="POST" action="">
-
+<form method="POST" action="" class="loginForm">
+    <div>
     <label>username</label>
     <input name="username" type="text">
+    </div>
+
+    <div>
     <label>password</label>
     <input name="password" type="password">
+    </div>
     <input type="submit" value="Login" name="Login">
 
     <a href = "<?php echo 'index.php?module=Register' ?>"> Register </a>
